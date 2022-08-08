@@ -1,5 +1,12 @@
-#Python for Biologists by Dr. Martin Jones
+##Python for Biologists by Dr. Martin Jones
 
-#Lesson 1, applying the print() function 
 
-print("Hello world!")
+#Applying the print() function 
+
+        #print("Hello world!")
+        #print('Hello world!')
+        
+        #escaping characters 
+           #print("The name is \\\"test\".")
+
+
