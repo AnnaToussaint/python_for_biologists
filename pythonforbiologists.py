@@ -42,8 +42,11 @@ dna_length = len(my_dna)
 print("The length of the DNA sequence is " + str(dna_length))
 
 
+#a method is a function that belongs to a particular type. e.g. lower() belongs to the str type. 
+#print my_dna in lower case
 
-
+print(my_dna.lower())
+len(my_dna)
 
 
 
