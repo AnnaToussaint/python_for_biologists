@@ -57,7 +57,24 @@ print(protein)
 
 #Extracting part of a string
 
+print(protein[3:5]) #positions start at 0, not 1
+print(protein[0:6]) #if you state a number beyond last position, it will print last position
+                    #positions are inclusive at the start but exclusive at the stop
 
+
+protein = "vlspadktnv"
+#counting aa residues 
+
+valine_count = protein.count('v')
+lsp_count = protein.count('lsp')
+tryptophan_count = protein.count('w')
+
+
+#print the counts
+print("valines: " + str(valine_count))
+print("lsp: " + str(lsp_count))
+print("tryptophans: " +str(tryptophan_count)) # remember str method converts output to str for print()
+                                              # function, which takes only the same type 
 
 
 
