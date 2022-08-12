@@ -76,6 +76,11 @@ print("lsp: " + str(lsp_count))
 print("tryptophans: " +str(tryptophan_count)) # remember str method converts output to str for print()
                                               # function, which takes only the same type 
 
+#Applying the find method
+
+print(str(protein.find('p')))
+print(str(protein.find('v')))
+print(str(protein.find('pad')))
 
 
 
