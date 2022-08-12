@@ -45,20 +45,20 @@ print("The length of the DNA sequence is " + str(dna_length))
 #a method is a function that belongs to a particular type. e.g. lower() belongs to the str type. 
 #print my_dna in lower case
 
-print(my_dna.lower())
-len(my_dna)
+#print(my_dna.lower())
+#len(my_dna)
 
 #Applying replace method 
 
 protein = "vlspadktnv"
-print(protein.replace("v","y"))
-print(protein.replace("vls","ymt"))
-print(protein)
+#print(protein.replace("v","y"))
+#print(protein.replace("vls","ymt"))
+#print(protein)
 
 #Extracting part of a string
 
-print(protein[3:5]) #positions start at 0, not 1
-print(protein[0:6]) #if you state a number beyond last position, it will print last position
+#print(protein[3:5]) #positions start at 0, not 1
+#print(protein[0:6]) #if you state a number beyond last position, it will print last position
                     #positions are inclusive at the start but exclusive at the stop
 
 
@@ -71,23 +71,19 @@ tryptophan_count = protein.count('w')
 
 
 #print the counts
-print("valines: " + str(valine_count))
-print("lsp: " + str(lsp_count))
-print("tryptophans: " +str(tryptophan_count)) # remember str method converts output to str for print()
+#print("valines: " + str(valine_count))
+#print("lsp: " + str(lsp_count))
+#print("tryptophans: " +str(tryptophan_count)) # remember str method converts output to str for print()
                                               # function, which takes only the same type 
 
 #Applying the find method
 
-print(str(protein.find('p')))
-print(str(protein.find('v')))
-print(str(protein.find('pad')))
+#print(str(protein.find('p')))
+#print(str(protein.find('v')))
+#print(str(protein.find('pad')))
 
 
-
-
-
-
-
+#Exercises for Ch1+2
 
 
 
