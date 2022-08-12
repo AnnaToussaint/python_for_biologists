@@ -48,6 +48,28 @@ print("The length of the DNA sequence is " + str(dna_length))
 print(my_dna.lower())
 len(my_dna)
 
+#Applying replace method 
+
+protein = "vlspadktnv"
+print(protein.replace("v","y"))
+print(protein.replace("vls","ymt"))
+print(protein)
+
+#Extracting part of a string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
