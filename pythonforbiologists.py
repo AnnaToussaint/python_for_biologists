@@ -102,11 +102,11 @@ my_seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 def complement(seq)
   if n in seq == {"A", "T", "G", "C"}.union.(seq): 
  
-  seq = seq.replace("A", "T").replace("C", "G").replace("T", "A").replace("G","C") 
+    seq = seq.replace("A", "T").replace("C", "G").replace("T", "A").replace("G","C") 
 
-else:
-   return "Invalid sequence. Please recheck DNA sequence."
+  else:
+    return "Invalid sequence. Please recheck DNA sequence."
  
- print(complement(my_seq))
+  print(complement(my_seq))
 
 
