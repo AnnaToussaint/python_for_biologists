@@ -84,8 +84,17 @@ tryptophan_count = protein.count('w')
 
 
 #Exercises for Ch1+2
+ 
+ #Calculating AT content 
+ my_seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+ a_count = my_seq.count('A')
+ t_count = my_seq.count('T')
+ c_count = my_seq.count('C')
+ g_count = my_seq.count('G')
+ 
+ at_content = ((a_count + t_count) / (a_count + t_count + c_count + g_count)) * 100 
 
-
+ print(at_content)
 
 
 
