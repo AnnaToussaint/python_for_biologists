@@ -99,7 +99,7 @@ tryptophan_count = protein.count('w')
 #Complement of DNA 
 my_seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-def complement(seq)
+def complement(seq):
   if n in seq == {"A", "T", "G", "C"}.union.(seq): 
  
     seq = seq.replace("A", "T").replace("C", "G").replace("T", "A").replace("G","C") 
